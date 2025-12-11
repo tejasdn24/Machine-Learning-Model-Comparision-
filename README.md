@@ -53,7 +53,7 @@ Fighter Aircraft Classification using VGG19 and Xception
        
        3. Evaluate Models
        
-               python src/evaluate_models.py
+               python src/FinalOutput.py
           Loads the saved VGG19 and Xception models.
           Evaluates them on data/test. 
           Writes per‑image predictions to:
