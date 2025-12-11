@@ -34,15 +34,16 @@ Fighter Aircraft Classification using VGG19 and Xception
 
 - How to Run
     1. Train VGG19
-         python src/train_vgg19.py
-          Typical behavior:
-            Loads training and validation images from data/train and data/val.
-            Builds a VGG19‑based model with a custom classification head for 8 classes.
-            Trains the model and saves:
-            Model weights (for example, vgg19_best.h5).
-            Training history in results/training_history_VGG19_8classes.xlsx.
 
-    2. Train Xception
+            python src/train_vgg19.py
+       Typical behavior:
+          Loads training and validation images from data/train and data/val.
+          Builds a VGG19‑based model with a custom classification head for 8 classes.
+          Trains the model and saves:
+          Model weights (for example, vgg19_best.h5).
+          Training history in results/training_history_VGG19_8classes.xlsx.
+
+    3. Train Xception
        
            python src/train_xception.py
         Typical behavior:
