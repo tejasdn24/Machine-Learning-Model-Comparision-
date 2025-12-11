@@ -43,7 +43,7 @@ Fighter Aircraft Classification using VGG19 and Xception
           Model weights (for example, vgg19_best.h5).
           Training history in results/training_history_VGG19_8classes.xlsx.
 
-    3. Train Xception
+    2. Train Xception
        
            python src/train_xception.py
         Typical behavior:
@@ -52,9 +52,9 @@ Fighter Aircraft Classification using VGG19 and Xception
          Model weights (for example, xception_best.h5).
          Training history in results/training_history_Xception_8classes.xlsx.
        
-       3. Evaluate Models
+    3. Evaluate Models
        
-               python src/FinalOutput.py
+           python src/FinalOutput.py
           Loads the saved VGG19 and Xception models.
           Evaluates them on data/test. 
           Writes per‑image predictions to:
