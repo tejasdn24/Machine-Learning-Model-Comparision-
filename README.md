@@ -8,30 +8,6 @@ Fighter Aircraft Classification using VGG19 and Xception
 
 - Evaluation with accuracy, precision, recall, F1‑score, and ROC–AUC at both overall and per‑class levels.
 
-- Repository Structure
-      .
-      ├── data/
-      │   ├── train/                 # Training images in 8 class folders
-      │   ├── val/                   # Validation images
-      │   └── test/                  # Test images
-      ├── src/
-      │   ├── train_vgg19.py         # Train VGG19 model
-      │   ├── train_xception.py      # Train Xception model
-      │   └── FinalOutput.py     # Evaluate trained models on test set
-      ├── results/
-      │   ├── test_results_vgg19.xlsx
-      │   ├── test_results.xlsx          # Xception test results
-      │   ├── training_history_VGG19_8classes.xlsx
-      │   ├── training_history_Xception_8classes.xlsx
-      │   ├── vgg19ConfusionMatrix.jpg
-      │   ├── xceptionConfusionMatrix.jpg
-      │   ├── vgg19ROC.jpg
-      │   ├── xceptionROC.jpg
-      │   ├── vgg19AnnotedImage.jpg
-      │   └── xceptionAnnotedImage.jpg
-      └── README.md
-      └── requirements.txt
-
 - Setup and Installation
   1. Clone the repository
      
